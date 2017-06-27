@@ -1,4 +1,4 @@
-{% set version = '1.15.1' %}
+{% set version = '1.16' %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,8 +12,8 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/knitr_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/knitr/knitr_{{ version }}.tar.gz
-  sha256: 8161a75f95ada059aeea093267457fad4bb804fba0f6575450baec79e6687ddd
-
+  sha256: 10481fbf266b68402bf1973da99a87576ec2579f1c6cb2f1cca524b661a56a09
+  
 build:
   number: 0
   skip: true  # [win32]
