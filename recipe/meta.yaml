@@ -1,4 +1,4 @@
-{% set version = "1.28" %}
+{% set version = "1.29" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/knitr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/knitr/knitr_{{ version }}.tar.gz
-  sha256: 05ee01da31d715bf24793efb3e4ef3bb3101ef1e1ab2d760c645fc5b9d40232a
+  sha256: c1aecdf29ee3ebd8c694787ab9784463f99e86018de787092cb3da8f70e42c03
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -48,10 +48,9 @@ test:
 about:
   home: https://yihui.name/knitr/
   license: GPL
-  summary: Provides a general-purpose tool for dynamic report generation in R using Literate
-    Programming techniques.
+  summary: Provides a general-purpose tool for dynamic report generation in R using Literate Programming techniques.
   license_family: GPL
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
