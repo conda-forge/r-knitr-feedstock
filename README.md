@@ -3,9 +3,9 @@ About r-knitr
 
 Home: https://yihui.name/knitr/
 
-Package license: GPL
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Provides a general-purpose tool for dynamic report generation in R using Literate Programming techniques.
 
