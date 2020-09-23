@@ -3,7 +3,7 @@ About r-knitr
 
 Home: https://yihui.name/knitr/
 
-Package license: GPL
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD-3-Clause
 
