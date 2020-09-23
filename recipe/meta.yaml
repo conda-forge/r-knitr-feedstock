@@ -29,7 +29,7 @@ requirements:
     - r-highr
     - r-markdown
     - r-stringr >=0.6
-    - r-xfun
+    - r-xfun >=0.15
     - r-yaml >=2.1.19
   run:
     - r-base
@@ -37,7 +37,7 @@ requirements:
     - r-highr
     - r-markdown
     - r-stringr >=0.6
-    - r-xfun
+    - r-xfun >=0.15
     - r-yaml >=2.1.19
 
 test:
@@ -47,10 +47,11 @@ test:
 
 about:
   home: https://yihui.name/knitr/
-  license: GPL
+  license: GPL-2.0-or-later
   summary: Provides a general-purpose tool for dynamic report generation in R using Literate Programming techniques.
   license_family: GPL
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
