@@ -1,11 +1,11 @@
-About r-knitr
-=============
+About r-knitr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-knitr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://yihui.org/knitr/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-knitr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a general-purpose tool for dynamic report generation in R using Literate Programming techniques.
 
