@@ -1,4 +1,4 @@
-{% set version = "1.43" %}
+{% set version = "1.44" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/knitr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/knitr/knitr_{{ version }}.tar.gz
-  sha256: 3d29baea8c349aaa9310879ceb9a9d51bcaec39827ad46d422c3793c8a4ed53c
+  sha256: 718e893aea0af02167c36af4720f0570db20c0086812c86a840283be25a5be04
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
