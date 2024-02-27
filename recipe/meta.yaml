@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -28,13 +28,13 @@ requirements:
     - r-base
     - r-evaluate >=0.15
     - r-highr
-    - r-xfun >=0.34
+    - r-xfun >=0.39
     - r-yaml >=2.1.19
   run:
     - r-base
     - r-evaluate >=0.15
     - r-highr
-    - r-xfun >=0.34
+    - r-xfun >=0.39
     - r-yaml >=2.1.19
 
 test:
