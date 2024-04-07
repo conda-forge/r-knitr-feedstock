@@ -28,13 +28,13 @@ requirements:
     - r-base
     - r-evaluate >=0.15
     - r-highr
-    - r-xfun >=0.39
+    - r-xfun >=0.43
     - r-yaml >=2.1.19
   run:
     - r-base
     - r-evaluate >=0.15
     - r-highr
-    - r-xfun >=0.39
+    - r-xfun >=0.43
     - r-yaml >=2.1.19
 
 test:
