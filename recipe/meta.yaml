@@ -27,14 +27,14 @@ requirements:
   host:
     - r-base
     - r-evaluate >=0.15
-    - r-highr
-    - r-xfun >=0.43
+    - r-highr >=0.11
+    - r-xfun >=0.44
     - r-yaml >=2.1.19
   run:
     - r-base
     - r-evaluate >=0.15
-    - r-highr
-    - r-xfun >=0.43
+    - r-highr >=0.11
+    - r-xfun >=0.44
     - r-yaml >=2.1.19
 
 test:
