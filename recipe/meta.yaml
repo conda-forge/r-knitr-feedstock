@@ -22,17 +22,17 @@ requirements:
   build:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
-  host:
+ host:
     - r-base
     - r-evaluate >=0.15
     - r-highr >=0.11
-    - r-xfun >=0.51
+    - r-xfun >=0.52
     - r-yaml >=2.1.19
   run:
     - r-base
     - r-evaluate >=0.15
     - r-highr >=0.11
-    - r-xfun >=0.51
+    - r-xfun >=0.52
     - r-yaml >=2.1.19
 
 test:
