@@ -1,4 +1,4 @@
-{% set version = "1.51" %}
+{% set version = "1.52" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/knitr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/knitr/knitr_{{ version }}.tar.gz
-  sha256: bcfa3081677ff5c3881c7cef35f3305bbf6714b01320c81a523772663741ca11
+  sha256: bdd66a02dfba08a4c644b38a6ae08f6ba915c16d6b6ab6a188ec193c35905ff2
 
 build:
   number: 0
